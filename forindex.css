@@ -1,0 +1,101 @@
+body {
+   
+    background-image: url("pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1#myself {
+    margin-left: 3mm;
+    color: aquamarine;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: "montserrat";
+}
+
+section.about {
+    color:bisque;
+    font-size:x-large;
+    width :30%; 
+    margin-left: 5mm;
+    min-height: auto;
+    
+    
+}
+section.about:hover {
+    background: cadetblue;
+    border: 3px solid rgb(221, 147, 62);
+    transition: .2s;
+}
+
+
+table.table,tr,td {
+    
+    border: 1px solid black;
+    text-align: center;
+}
+caption#fortablecaption {
+    font-size: larger;
+    color: rgb(228, 226, 111);
+    font-weight: bold;
+}
+div.table1 {
+    margin-left: 5mm;
+    color: bisque;
+    font-size: large;
+    padding: 1mm;
+    width: 42%;
+}
+div.table1:hover {
+    border: 3px solid rgb(221, 147, 62);
+    background: cadetblue;
+    transition: .2s;
+}
+
+p#accp {
+    margin-left: 8mm;
+    font-size: large;
+    color: bisque;
+}
+
+div.social {
+    margin-left: 30px;
+    
+    /*transform: translate(-50%,-50%);*/
+    display: flex;
+    
+    position: absolute;
+}
+div.social .fa {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .2s;
+    color: antiquewhite;
+}
+
+/*div.social .fa:hover {
+    color: teal;
+} */
+
+div.social a {
+    margin: 5px;
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+}
+div.social a:hover {
+    transform: translate(0,-10px);
+}
+div.social a#lnk:hover {
+    background-color: #0A66C2;
+    transition: .3s;
+}
+
+div.social a#inst:hover {
+    background-color: #E4405F;
+    transition: .3s;
+}
+
